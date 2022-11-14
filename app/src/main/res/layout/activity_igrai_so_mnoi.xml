@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wintasfoner"
+    android:layout_height="match_parent"
+    tools:context=".koroutims.IgraiSoMnoi">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/teamviavas"
+        android:fontFamily="@font/paparazi"
+        android:gravity="center"
+        android:text="Frozen Gold"
+        android:textColor="@color/black"
+        android:textSize="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fruits1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="9dp"
+        android:background="@drawable/ramkaaaas"
+        android:src="@drawable/orangeice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <ImageView
+        android:id="@+id/fruits2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/ramkaaaas"
+        android:src="@drawable/malinice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+
+    <TextView
+        android:id="@+id/inemscara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paparazi"
+        android:gravity="center"
+        android:text="Enemy Score : 0"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/fruits2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <TextView
+        android:id="@+id/yourascara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paparazi"
+        android:gravity="center"
+        android:text="Your Score : 0"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/fruits5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruits2"
+        app:layout_constraintVertical_bias="0.659" />
+
+    <ImageView
+        android:id="@+id/fruits3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/ramkaaaas"
+        android:src="@drawable/peachice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <ImageView
+        android:id="@+id/fruits4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="9dp"
+        android:background="@drawable/ramkaaaas"
+        android:src="@drawable/orangeice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <ImageView
+        android:id="@+id/fruits5"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/ramkaaaas"
+        android:src="@drawable/malinice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <ImageView
+        android:id="@+id/fruits6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/ramkaaaas"
+        android:src="@drawable/peachice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <androidx.constraintlayout.utils.widget.MotionButton
+        android:id="@+id/spinnnnnners"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Spin"
+        android:fontFamily="@font/paparazi"
+        android:textSize="30dp"
+        android:background="@drawable/butrorezka"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruits5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
